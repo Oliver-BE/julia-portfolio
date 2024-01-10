@@ -8,13 +8,13 @@ import SEO from "../components/seo"
 import "../utils/normalize.css"
 import "../utils/css/screen.css"
 
-const ElementsPage = ({ data }, location) => {
+const PressPage = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title
 
   return (
     <Layout title={siteTitle}>
       <SEO
-        title="All posts"
+        title="Press"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
 
@@ -565,7 +565,7 @@ export default props => (
   <StaticQuery
     query={indexQuery}
     render={data => (
-      <ElementsPage location={props.location} data={data} {...props} />
+      <PressPage location={props.location} data={data} {...props} />
     )}
   />
 )
