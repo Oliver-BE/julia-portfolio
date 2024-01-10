@@ -40,11 +40,12 @@ const BlogIndex = ({ data }, location) => {
                                     // TODO increase font size and spacing between lines
                                 }}
                             >
-                                Julia Pike is a writer and educator from Brooklyn, New York. She is currently the
-                                Writer-in-Residence at St. Albans School, and was previously the recipient of a St.
-                                Botolph Emerging Artist Award in Literature. She holds an MFA in Fiction from Boston
-                                University, and her writing has been published in <em>Joyland</em>, <em>The Common</em>,{' '}
-                                <em>The Rumpus</em>, <em>Rookie Magazine</em>, and <em>The Molotov Cocktail</em>.
+                                Julia Pike is a writer and educator from Brooklyn, New York. She is currently the the
+                                forty-second Writer-in-Residence at St. Albans School, and was previously the recipient
+                                of a St. Botolph Emerging Artist Award in Literature. She holds an MFA in Fiction from
+                                Boston University, and her writing has been published in <em>Joyland</em>,{' '}
+                                <em>The Common</em>, <em>The Rumpus</em>, <em>Rookie Magazine</em>, and{' '}
+                                <em>The Molotov Cocktail</em>.
                             </div>
                         </div>
                     </div>
