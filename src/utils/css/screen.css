@@ -719,3 +719,16 @@ body {
 .page-template .post-content-body h3 {
     text-align: center;
 }
+
+/* Custom
+/* ---------------------------------------------------------- */
+
+.oliver-article {
+    margin: 4vh 15vw;
+}
+
+@media (max-width: 850px) {
+    .oliver-article {
+        margin: 0
+    }
+}
