@@ -40,7 +40,7 @@ const BlogIndex = ({ data }, location) => {
                                     // TODO increase font size and spacing between lines
                                 }}
                             >
-                                Julia Pike is a writer and educator from Brooklyn, New York. She is currently the the
+                                Julia Pike is a writer and educator from Brooklyn, New York. She is currently the
                                 forty-second Writer-in-Residence at St. Albans School, and was previously the recipient
                                 of a St. Botolph Emerging Artist Award in Literature. She holds an MFA in Fiction from
                                 Boston University, and her writing has been published in <em>Joyland</em>,{' '}
