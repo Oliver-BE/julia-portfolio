@@ -1,5 +1,5 @@
-const urljoin = require("url-join")
-const siteConfig = require("./siteConfig")
+const urljoin = require('url-join');
+const siteConfig = require('./siteConfig');
 
 module.exports = {
   siteMetadata: {
@@ -58,10 +58,10 @@ module.exports = {
       resolve: `gatsby-plugin-postcss`,
       options: {
         postCssPlugins: [
-          require("postcss-easy-import")(),
-          require("postcss-custom-properties")({ preserve: false }),
-          require("postcss-color-function")(),
-          require("autoprefixer")({ browsers: ["last 2 versions"] }),
+          require('postcss-easy-import')(),
+          require('postcss-custom-properties')({ preserve: false }),
+          require('postcss-color-function')(),
+          require('autoprefixer')({ browsers: ['last 2 versions'] }),
         ],
       },
     },
@@ -92,11 +92,11 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `static/favicon.ico`, //TODO need to either remove this or make a PNG because .ico is unsupported
       },
     },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
   ],
-}
+};
