@@ -36,7 +36,7 @@ const BlogIndex = ({ data }, location) => {
             <div className="col-6">
               <div
                 style={{
-                  padding: '1rem 0',
+                  padding: '0 0 1rem 1rem',
                   fontSize: '24px',
                   fontWeight: '400',
                   lineHeight: '50px',
