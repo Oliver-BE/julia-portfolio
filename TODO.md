@@ -4,6 +4,6 @@
 [] Add contact me email form/new page
 [] Update Home page title to say "About" or just "Julia Pike"
 [x] Add Writing
-[] Add Press
+[x] Add Press
 [] Remove unneeded photos/resources from site
 [] Clean up README
