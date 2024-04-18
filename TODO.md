@@ -1,9 +1,9 @@
 ## TODO List
 
-[] Favicon
-[] Add contact me email form/new page
-[] Update Home page title to say "About" or just "Julia Pike"
+[x] Favicon
 [x] Add Writing
 [x] Add Press
-[] Remove unneeded photos/resources from site
+[x] Remove unneeded photos/resources from site
+[] Add contact me email form/new page
+[] Update Home page title to say "About" or just "Julia Pike"
 [] Clean up README

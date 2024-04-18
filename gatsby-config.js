@@ -92,7 +92,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`, //TODO need to either remove this or make a PNG because .ico is unsupported
+        icon: `content/assets/jp.png`, // .ico is unfortunately unsupported, needs to be a .png or .jpg
       },
     },
     `gatsby-plugin-netlify`,
