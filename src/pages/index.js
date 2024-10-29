@@ -1,14 +1,14 @@
-import React from 'react';
-import { graphql, StaticQuery } from 'gatsby';
-import Img from 'gatsby-image';
+import React from "react";
+import { graphql, StaticQuery } from "gatsby";
+import Img from "gatsby-image";
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 // import PostCard from "../components/postCard"
 
 // import "../utils/global.scss"
-import '../utils/normalize.css';
-import '../utils/css/screen.css';
+import "../utils/normalize.css";
+import "../utils/css/screen.css";
 //TODO: switch to staticQuery, get rid of comments, remove unnecessary components, export as draft template
 const BlogIndex = ({ data }, location) => {
   const siteTitle = data.site.siteMetadata.title;
@@ -29,23 +29,23 @@ const BlogIndex = ({ data }, location) => {
           <div className="row">
             <div className="col-6">
               <figure className="kg-image-card">
-                <Img fluid={data.juliaHeadshot.childImageSharp.fluid} style={{ padding: '1rem' }} />
+                <Img fluid={data.juliaHeadshot.childImageSharp.fluid} style={{ padding: "1rem" }} />
                 {/* <figcaption>Image Caption</figcaption> */}
               </figure>
             </div>
             <div className="col-6">
               <div
                 style={{
-                  padding: '0 0 1rem 1rem',
-                  fontSize: '24px',
-                  fontWeight: '400',
-                  lineHeight: '50px',
+                  padding: "0 0 1rem 1rem",
+                  fontSize: "24px",
+                  fontWeight: "400",
+                  lineHeight: "50px",
                 }}
               >
-                Julia Pike is a writer and educator from Brooklyn, New York. She is currently the forty-second
-                Writer-in-Residence at St. Albans School, and was previously the recipient of a St. Botolph Emerging
-                Artist Award in Literature. She holds an MFA in Fiction from Boston University, and her writing has been
-                published in <em>Joyland</em>, <em>The Common</em>, <em>The Rumpus</em>, <em>Rookie Magazine</em>, and{' '}
+                Julia Pike is a writer and educator from Brooklyn, New York. Her work has been supported by the
+                Corporation of Yaddo, the St. Botolph Club Foundation, and the St. Albans School Writer-in-Residence
+                program. She holds an MFA in Fiction from Boston University, and her writing has been published in{" "}
+                <em>Joyland</em>, <em>The Common</em>, <em>The Rumpus</em>, <em>Rookie Magazine</em>, and{" "}
                 <em>The Molotov Cocktail</em>.
               </div>
             </div>
