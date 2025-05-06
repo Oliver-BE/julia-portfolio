@@ -48,6 +48,16 @@ const BlogIndex = ({ data }, location) => {
                 <em>Joyland</em>, <em>The Common</em>, <em>The Rumpus</em>, <em>Rookie Magazine</em>, and{" "}
                 <em>The Molotov Cocktail</em>.
               </div>
+              <div
+                style={{
+                  padding: "2rem 0 1rem 1rem",
+                  fontSize: "24px",
+                  fontWeight: "400",
+                  lineHeight: "50px",
+                }}
+              >
+                Her debut novel is forthcoming from Riverhead Books in 2027.
+              </div>
             </div>
           </div>
         </div>

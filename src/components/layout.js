@@ -24,30 +24,12 @@ const Layout = props => {
               <li className="nav-about" role="menuitem">
                 <Link to={`/writing`}>Writing</Link>
               </li>
-              <li className="nav-elements" role="menuitem">
-                <Link to={`/press`}>Press</Link>
-              </li>
             </ul>
           </nav>
           <div className="site-head-center">
             <Link className="site-head-logo" to={`/`}>
               {title}
             </Link>
-          </div>
-          <div className="site-head-right">
-            <div className="social-links">
-              <a
-                href="https://www.linkedin.com/in/juliacpike"
-                title="LinkedIn"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-              <a href="https://twitter.com/juliapike14" title="Twitter" target="_blank" rel="noopener noreferrer">
-                Twitter
-              </a>
-            </div>
           </div>
         </div>
       </header>
